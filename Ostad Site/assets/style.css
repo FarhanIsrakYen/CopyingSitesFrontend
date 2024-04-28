@@ -1,0 +1,38 @@
+nav {
+  font-size: 13px !important;
+}
+.nav-logo {
+  width: 100px;
+  height: auto;
+}
+
+.search-icon {
+  background: url("https://cdn.ostad.app/public/upload/2024-03-10T04-41-51.748Z-ostad-search.svg")
+    no-repeat left;
+  background-size: 30px;
+}
+
+.search-button:hover {
+  background-color: rgb(226, 226, 226) !important;
+  cursor: text;
+}
+
+input[type="search"]::placeholder {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: rgb(226, 226, 226) !important;
+  border-radius: 5px;
+}
+
+.language:hover {
+  background-color: rgb(247, 245, 245) !important;
+  border-radius: 5px;
+}
+
+.dashboard:hover {
+  background-color: rgb(27, 27, 27) !important;
+  border-radius: 5px;
+}
